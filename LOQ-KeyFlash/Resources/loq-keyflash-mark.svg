@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="KeyFlash H3 mark">
+  <g fill="none" stroke="#f4f4f1" stroke-width="27" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M73.9 53.6A92 92 0 0 1 182.1 53.6"/>
+    <path d="M49.1 80.6A92 92 0 0 0 99.6 215.5"/>
+    <path d="M206.9 80.6A92 92 0 0 1 156.4 215.5"/>
+  </g>
+
+  <g fill="none" stroke="#555754" stroke-width="5.5" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M68 51L84 68L99 57"/>
+    <path d="M188 51L172 68L157 57"/>
+    <path d="M50 72L66 88L57 104"/>
+    <path d="M206 72L190 88L199 104"/>
+    <path d="M91 207L108 216L108 198"/>
+    <path d="M165 207L148 216L148 198"/>
+  </g>
+
+  <g fill="#f4f4f1">
+    <path d="M74 76H101V116L145 76H184L136 121H169L157 142H136L184 188H145L101 146V188H74Z"/>
+    <path d="M151 112H181L166 133H137L125 122L137 112Z"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>LOQ-KeyFlash</AssemblyName>
+    <RootNamespace>LoqKeyFlash</RootNamespace>
+    <Title>LOQ KeyFlash</Title>
+    <Product>LOQ KeyFlash</Product>
+    <Authors>Rifaad Daafir</Authors>
+    <Company>Rifaad Daafir</Company>
+    <Description>Precision keyboard-backlight flash control for Lenovo LOQ laptops.</Description>
+    <Copyright>Copyright © 2026 Rifaad Daafir</Copyright>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Resources\LOQ-KeyFlash.ico</ApplicationIcon>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Version>1.3.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App.WindowsForms" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\github-mark.png" />
+    <EmbeddedResource Include="Resources\loq-keyflash-mark.png" />
+  </ItemGroup>
+</Project>
